@@ -1,0 +1,12 @@
+**html**
+// form 안에 인풋을 써야 html에서 확인을 한다(유효성 검사) 
+// form은 submit을 확인하는데 submit은 엔터나 버튼을 클릭할때 발생하기에 form유효성 검사할때 submit이벤트로 해야함.
+// input 태그는 html 에 자체에서 많은 기능을 줬다 예를들어 maxlength='15'로 하면 최대글자수 제한을 두고 required는 경고창을 띄어준다.
+
+** javascript**
+// parsInt => 문자열을 넘버로
+// typeof ### => 타입이뭔지 알려주는 키워드 
+// 변수명.classList.toggle('클래스명'); => 클래스명이 있는지 확인 없다면 추가 있다면 삭제/on off 스위치 생각하면 쉬움
+// 기본동작을 막아주는 함수 => event.preventDefault();
+
+**css**
