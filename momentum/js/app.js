@@ -41,7 +41,7 @@ HIDDEN_CLASSNAME = 'hidden';
 USERNAME_KEY = 'userName';
 
 //submit을 하면 실행되는 함수
-function onLogInSubmit (event) {
+function onLogInSubmit (event) { 
     //기본동작을 막아주는
     event.preventDefault();
     const userName = logInInput.value;
